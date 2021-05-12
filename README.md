@@ -156,19 +156,21 @@ This level is also known as the $\alpha$ (alpha). You can think of it as *what f
 
 Some typical significance levels you might see are **a 5% significance level** or a 1% significance level. Setting a 5% significance level means that you would expect that **1 in 20 times, if you were performing this exact same experiment, you would reject the null hypothesis when it is actually true**. Or for a 1% significance level, 1 in 100 times you would reject the null hypothesis when it is actually true.
 
-A **statistically significant** result is a result where the probability of obtaining that result, given that the null hypothesis were true, is below the specified significance level.
+A **statistically significant** result means that the probability of obtaining that result, if the null hypothesis were true, is below the specified significance level.
 
 ## Statistical Significance and Confidence Intervals
 
 Statistical significance and confidence intervals relate in key ways.
 
-First, as you will see in the upcoming lessons, we actually use confidence intervals to perform most hypothesis tests, by computing a test statistic then comparing it to the distribution of that test statistic!
+First, as you will see in the upcoming lessons, **we actually use confidence intervals to perform most hypothesis tests**, by computing a test statistic then comparing it to the distribution of that statistic, **in order to determine if a result is statistically significant**!
 
 We also can use the language of statistical significance to describe what a confidence interval represents. Returning to our 99.9% confidence level for chair back heights, we can say *the confidence interval we obtained represents values where the difference between each value and the true parameter is not statistically significant at the 0.1% level*. In other words, 14, 14.25, 14.5, etc. are all values where the difference between those values and the true mean is not statistically significant (at our chosen level). So are 15, 15.33, and 15.9.
 
+(This explanation of a confidence interval is less common, so it's okay if that doesn't completely make sense to you. In future lessons we will discuss many examples of statistically significant/insignificant findings that are more intuitive than this one.)
+
 Once again, a difference being statistically insignificant does not tell you anything decisive about the true value! There is still a possibility that the true mean is 12 and our sample is just particularly unlucky. 
 
-Statistical significance also doesn't tell you anything about the practical significance — if a difference of 1 inch is very important for your business purposes, then this confidence interval may not actually be a useful estimate.
+Statistical significance also doesn't tell you anything about the practical significance — if a difference of 1 inch is very important for your business purposes, then this confidence interval may not actually be a useful estimate. We will dig into practical significance more when we discuss *effect sizes*.
 
 ## Summary
 
