@@ -7,6 +7,7 @@ Now that you have learned about confidence intervals, it's time to learn about a
 ## Objectives
 
 You will be able to:
+
 * Understand the trade-off between correctness and utility in making statistical claims
 * Identify typical confidence levels, and their interpretations
 * Describe the connection between confidence levels and significance levels
@@ -66,7 +67,9 @@ ax.legend();
 ```
 
 
+    
 ![png](index_files/index_7_0.png)
+    
 
 
 ### Our Absurd Example
