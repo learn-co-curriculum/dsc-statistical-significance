@@ -80,7 +80,7 @@ One approach you might take, as described previously, would be to make an extrem
 ```python
 from scipy import stats
 stats.t.interval(
-    alpha=0.9999999999999999,
+    confidence=0.9999999999999999,
     df=len(sample)-1,
     loc=sample_mean,
     scale=stats.sem(sample)
@@ -115,7 +115,7 @@ Most of the time, a probability well above 0.00000000000001% will be tolerated. 
 
 ```python
 stats.t.interval(
-    alpha=0.999,
+    confidence=0.999,
     df=len(sample)-1,
     loc=sample_mean,
     scale=stats.sem(sample)
